@@ -4,12 +4,11 @@ public class Main3 {
         System.out.println(book);
 
         Member[] members = {
-            new PublisherMember("Alice Press", "P001"),
-            new StudentMember("Bob", "S123"),
-            new StudentMember("Carol"),          
-            new LibrarianMember("Dave", "L001")
+            new Publisher("Alice Press", "P001"),
+            new Student("Bob", "S123"),
+            new Student("Carol"),
+            new Librarian("Dave", "L001")
         };
-
 
         for (Member m : members) {
             System.out.println(m);
